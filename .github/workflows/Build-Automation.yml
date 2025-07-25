@@ -1,7 +1,7 @@
 name: Build Automation
 
 on:
-  workflow_dispatch:
+  push:
 
 jobs:
   run-junit-tests:
