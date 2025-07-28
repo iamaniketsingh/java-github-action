@@ -22,6 +22,6 @@ public class AppTest {
         assertEquals(2,App.subtract(5,3));
     }
      public void testMultiplication(){
-        assertEquals(14,App.multiply(5,3));
+        assertEquals(10,App.multiply(5,3));
     }
 }
