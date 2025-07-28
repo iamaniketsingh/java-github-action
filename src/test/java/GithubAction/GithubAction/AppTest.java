@@ -1,5 +1,5 @@
 package GithubAction.GithubAction;
-
+import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -20,5 +20,8 @@ public class AppTest {
     }
     public void testSubtract(){
         assertEquals(2,App.subtract(5,3));
+    }
+     public void testMultiplication(){
+        assertEquals(10,App.multiply(5,3));
     }
 }
