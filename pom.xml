@@ -5,8 +5,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
 http://maven.apache.org/xsd/maven-4.0.0.xsd>
  
-    <modelVersion>4.0.0</modelVersion>
- 
+     <modelVersion>4.0.0</modelVersion>
     <groupId>com.example.myapp</groupId>
     <artifactId>myapp</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -36,13 +35,11 @@ http://www.example.com</url>
             <artifactId>junit-jupiter-api</artifactId>
             <scope>test</scope>
         </dependency>
- 
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-params</artifactId>
             <scope>test</scope>
         </dependency>
- 
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
@@ -92,4 +89,5 @@ http://www.example.com</url>
             </plugins>
         </pluginManagement>
     </build>
+ 
 </project>
