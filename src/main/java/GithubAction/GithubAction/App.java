@@ -10,4 +10,7 @@ public class App {
     public static String getMessage() {
     	return "Hello World"; 
     }
+    public static int subtract(int a, int b){
+        return a - b;
+    }
 }
